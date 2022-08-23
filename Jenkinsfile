@@ -3,6 +3,6 @@ node
 {
   stage('Gitcheckout')
   {
-     sourcecheckout('https://github.com/demuduraviteja/myshared-lib.git','main')
+     sourcecheckout('https://github.com/MandeepKaur915/shared-lib.git','main')
   }
 }
