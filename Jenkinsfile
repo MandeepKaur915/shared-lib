@@ -7,6 +7,6 @@ node
   }
     stage('Build')
   {
-     pipeline("Build")
+     pipeline(Build)
   }
 }
