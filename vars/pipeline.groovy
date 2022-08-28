@@ -1,4 +1,5 @@
-defcall(StringstageName){
+def call(def stageName)
+{
 
   
 
@@ -25,5 +26,10 @@ defcall(StringstageName){
        sh "mvn clean deploy"
 
      }
+  
+  else
+  {
+    error("please provide valid stagename")
+  }
 
 }
