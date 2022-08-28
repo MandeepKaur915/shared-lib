@@ -5,8 +5,8 @@ node
   {
      sourcecheckout('https://github.com/MandeepKaur915/shared-lib.git','main')
   }
-  stage('Build')
+  stage('Build war file')
   {
-     pipeline(Build)
+     pipeline('Build')
   }
 }
